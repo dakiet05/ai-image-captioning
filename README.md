@@ -8,28 +8,6 @@ Built with **TensorFlow, Transformer, InceptionV3, Flask, and gTTS**.
 - 🌐 **Web app** built with Flask for easy interaction.  
 - 📊 Trained and evaluated on the **Flickr8k dataset**.
 ---
-## 📂 Project Structure
-ai-image-captioning/
-│
-├── app.py # Flask web application
-├── main.py # Training pipeline
-├── model.py # Model architecture (Transformer Decoder)
-├── preprocess.py # Data preprocessing & tokenizer
-├── evaluate.py # Evaluation & BLEU score
-├── extract_features.py # Extract image features with InceptionV3
-│
-├── tokenizer.pkl # Trained tokenizer
-├── model_best.keras # Trained model weights (~94MB)
-│
-├── templates/
-│ └── index.html # Web UI
-├── static/
-│ ├── uploads/ # Uploaded images (ignored by Git)
-│ └── audio/ # Generated speech files (ignored by Git)
-│
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
----
 ## ⚙️ Installation
 Clone the repo:
 ```bash
@@ -70,5 +48,3 @@ Academic project: AI Generate Caption for Image
 📜 License
 This project is for educational and research purposes.
 Feel free to fork and improve 🚀
-👉 Gợi ý: bạn có thể thêm **mục Demo** (ảnh GIF hoặc video ngắn quay app chạy) để repo nhìn “xịn” hơn trong CV/Portfolio.  
-Có cần mình viết thêm luôn **requirements.txt** “chuẩn gọn” để đảm bảo người khác cài chạy được ngay không?
