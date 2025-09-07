@@ -1,0 +1,7 @@
+Flicker8k_Dataset/ 
+features/ 
+model_tf/ 
+*.npy 
+*.h5 
+*.ipynb 
+**/__pycache__/ 
