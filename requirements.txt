@@ -1,0 +1,7 @@
+tensorflow
+flask
+gTTS
+numpy
+pillow
+tqdm
+nltk

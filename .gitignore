@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Datasets & features (nặng)
+Flicker8k_Dataset/
+features/
+*.npy
+
+# Glove (nặng >100MB, đừng đẩy)
+glove.6B.*.txt
+
+# Model formats to bỏ (giữ .keras thôi)
+model_tf/
+*.h5
+
+# App outputs
+static/uploads/*
+!static/uploads/.gitkeep
+static/audio/*
+!static/audio/.gitkeep
+
+# OS/editor
+.DS_Store
+Thumbs.db
