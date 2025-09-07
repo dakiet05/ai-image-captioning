@@ -48,3 +48,4 @@ Academic project: AI Generate Caption for Image
 📜 License
 This project is for educational and research purposes.
 Feel free to fork and improve 🚀
+[![Live Demo](https://img.shields.io/badge/demo-online-green?style=for-the-badge&logo=googlechrome)](https://ai-image-captioning.onrender.com)
