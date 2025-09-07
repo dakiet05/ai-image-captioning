@@ -27,3 +27,4 @@ static/audio/*
 # OS/editor
 .DS_Store
 Thumbs.db
+features.pkl
