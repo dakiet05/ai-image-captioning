@@ -8,12 +8,16 @@ from gtts import gTTS
 from tensorflow.keras.applications.inception_v3 import InceptionV3, preprocess_input
 
 # ====== CONFIG PATHS ======
-BASE_DIR = r"C:/Users/84332/Desktop/AnhKiet hoc tap/CDCSAI/CDCSAI"
+# ====== CONFIG PATHS ======
+import os
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # <-- dùng relative path cross-platform
+
 MODEL_KERAS_BEST = os.path.join(BASE_DIR, "model_best.keras")
 MODEL_H5_BEST    = os.path.join(BASE_DIR, "model_best.h5")
 MODEL_KERAS_PATH = os.path.join(BASE_DIR, "model.keras")
 MODEL_H5_PATH    = os.path.join(BASE_DIR, "model.h5")
 TOKENIZER_PATH   = os.path.join(BASE_DIR, "tokenizer.pkl")
+
 
 # ====== FLASK ======
 app = Flask(__name__)
